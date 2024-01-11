@@ -1,0 +1,46 @@
+.container{
+    margin-bottom: 100px;
+}
+
+.orange-bg{
+
+    background-color: #FEEAE9;
+    border-radius: 10px;
+}
+
+.carousel-item{
+    padding: 20px 40px;
+}
+
+.price{
+color: #FF136F;
+font-family: Poppins;
+font-size: 41px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.buy-now-button{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 168px;
+    padding: 14px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--Linear, linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%));
+    border:none;
+    cursor: pointer;
+}
+
+.left_arrow{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
