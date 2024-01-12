@@ -1,3 +1,11 @@
+.h1, .h2, .h3, .h4, .h5{
+    font-family: Poppins;
+}
+
+.p{
+    font-family: Inter;
+}
+
 .container{
     margin-bottom: 100px;
 }
@@ -85,4 +93,53 @@ line-height: normal;
 
 .categories img{
     width: 100px;
+}
+
+/* =======================Shoes Category, card-deck, card box shadow==================== */
+
+.buy-now-button4{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    width: 168px;
+    padding: 14px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: #000;
+    border: none;
+}
+
+.buy-now-button4:hover{
+    color:#ff5200;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    text-align: center;
+}
+
+.card-footer{
+    background-color: white;
+    border-top:none;
+}
+
+/*==================Subscribe Section, Horizonatal and vertical center===============*/
+
+#subscribe{
+    height: 455px;
+}
+
+#subscribe h6{
+     color:#707070;
+}
+
+footer{
+    text-align:center;
 }
